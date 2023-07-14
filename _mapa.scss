@@ -1,0 +1,29 @@
+.mapa {
+    width: 85%;
+    margin: auto;
+    padding: 2em;
+    border: #000000 solid 2px;
+}
+
+.mapa path {
+    fill: rgba($color: #118dc7, $alpha: 0.6);
+    stroke-width: 1px;
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    width: fit-content;
+    height: 3.75em;
+    opacity: 0;
+    background: rgba($color: #000000, $alpha: 0.8);
+    border-radius: 0.5em;
+    padding: 0em 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa path:hover {
+    fill: rgba($color: #026592, $alpha: 0.6);
+}
